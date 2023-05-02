@@ -1,0 +1,75 @@
+@media (max-width: 992px){
+
+    .navbar-toggler{
+        display: block;
+    }
+
+    header nav {
+        position: fixed;
+        top: 8%;
+        left: 20%;
+        background-color: var(--white);
+        width: 60%;
+        flex-direction: column;
+    }
+    header nav ul{
+        flex-direction: column;
+    }
+    header nav ul li{
+        padding: 10px;
+    }
+
+
+    .services .row{
+        justify-content: center;
+    }
+    .services .col-4{
+        width: 50%;
+    }
+    .services-card{
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 767px){
+    .banner-text{
+        padding: 150px 0 70px;
+    }
+    .banner-text h1{
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .banner-text .btn {
+        margin-top: 12px;
+        font-size: 12px;
+        padding: 14px 20px;
+    }
+    .services-card h2{
+        font-size: 20px;
+    }
+    .services-card p{
+        line-height: 22px;
+    }
+}
+
+
+@media (max-width: 576px){
+    .banner-text{
+        padding: 100px 0 40px;
+    }
+    .banner-text h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .banner-text p {
+        font-size: 12px;
+    }
+    .banner-text .btn {
+        font-size: 10px;
+        padding: 10px 15px;
+    }
+    .services .col-4{
+        width: 100%;
+    }
+}
